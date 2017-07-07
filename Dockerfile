@@ -8,6 +8,7 @@
 FROM qqdsfmt/webrtc_checkout1
 
 ADD root/depot_tools.sh /root/depot_tools.sh
+ADD root/sudo /usr/bin
 
 RUN \
    /root/depot_tools.sh
